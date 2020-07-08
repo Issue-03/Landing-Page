@@ -1,0 +1,295 @@
+body, button, input {
+    font-family: 'Questrial' , sans-serif; 
+}
+  
+ul {
+    margin: 0;
+    padding: 0; 
+}
+  
+body {
+    overflow-x: hidden;
+    margin: 0; 
+}
+  
+h1, h2, h3, h4, h5, h6, p, figure {
+    font-weight: normal;
+    margin: 0; 
+}
+  
+button {
+    outline: none;
+    border: none;
+    color: inherit; 
+}
+  
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+  
+p, a, button, input {
+    font-size: 1.125rem; 
+}
+
+#landing {
+    background-image: url('images/bg1.png');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 120vh;
+}
+
+#landing nav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.418);
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#landing nav img {
+    padding-left: 1rem;
+}
+
+#landing nav li {
+    display: inline-block;
+    padding: 0 1.875rem;
+}
+
+#landing nav li a {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#landing nav li a:hover {
+    background-color: rgba(17, 17, 17, 0.63);
+    border: none;
+    border-radius: 20px;
+}
+
+#landing nav li .login {
+    font-weight: normal;
+    padding: 10px 20px;
+    border-radius: 18px;
+    background-color: rgb(13, 13, 114);
+}
+
+#content {
+    margin-top: 14rem;
+    margin-left: 2.5rem;
+}
+
+#content h3 {
+    color: rgb(53, 187, 29);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#content h4 {
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#content button {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 50px;
+    background-color: rgb(53, 200, 26);
+    border: none;
+    border-radius: 18px;
+    margin-left: 25rem;
+}
+
+#content button:hover {
+    opacity: 0.7;
+    border: 1px solid green;
+}
+
+#details .container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#details .container div {
+    border: 1px solid blue;
+    border-radius: 25px;
+    box-shadow: 3px 3px rgba(185, 182, 177, 0.397);
+    width: 25%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#details .container div img {
+    width: 70px;
+    height: 70px;
+    margin: 3rem 0;
+}
+
+#details .container div h3 {
+    font-weight: bold;
+    color: rgb(33, 25, 146);
+}
+
+#details .container div p {
+    margin: 1rem 3rem;
+    color: rgb(33, 25, 146);
+}
+
+#form-page{
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#form-page .wrapper {
+    border: 1px solid rgb(240, 230, 230);
+    border-radius: 20px;
+    box-shadow: 3px 3px rgba(209, 200, 200, 0.287);
+    width: 50%;
+}
+
+#form-page h3 {
+    text-align: center;
+    color: rgb(33, 25, 146);
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#form-page form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 4rem;
+}
+
+#form-page input {
+    outline: none;
+    border: 1px solid rgb(170, 164, 164);
+    border-radius: 5px;
+    background-color: rgba(190, 204, 204, 0.281);
+    padding: 10px 0px;
+}
+
+#form-page label {
+    font-weight: bold;
+}
+
+label span {
+    color: red;
+}
+
+form .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.input-group label {
+    margin-bottom: 0.5rem;
+}
+
+form button {
+    color: white;
+    background-color: rgb(53, 200, 26);
+    font-weight: bold;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 8rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+}
+
+form button:hover {
+    opacity: 0.7;
+} 
+
+.choose {
+    padding: 0.1rem 2rem;
+    height: 30vh;
+    background-color: rgba(253, 253, 253, 0.849);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(231, 226, 226, 0.356);
+}
+
+.choose h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(33, 25, 146);
+    margin-bottom: 2rem;
+}
+
+.choose img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+#address {
+    padding: 0 2rem;
+    padding-top: 4rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgba(62, 160, 53, 0.438);
+    display: flex;
+    justify-content: space-between;
+}
+
+#address img {
+    width: 200px;
+    height: 150px;
+}
+
+#address div {
+    display: flex;
+    flex-direction: column;
+    color: rgb(33, 25, 146);
+}
+
+#address div h5 {
+    margin-bottom: 3.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#address div > p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+address p {
+    margin-bottom: 0.1rem;
+    font-weight: bold;
+}
+
+footer {
+    padding: 1rem 0;
+    background-color: rgba(70, 170, 52, 0.849);
+    text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+    color: rgb(33, 25, 146);
+}
+
